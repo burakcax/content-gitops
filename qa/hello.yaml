@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: burakcax/gitops-repo:testv1.0
+        image: burakcax/gitops-repo:testv1.1
