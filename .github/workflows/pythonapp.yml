@@ -24,5 +24,5 @@ jobs:
       run: |
         cd ./python
         echo "${{ secrets.DOCKERPW }}" | docker login --username=burakcax --password=${{ secrets.DOCKERPW }}
-        docker image build -t burakcax/gitops:testv1.0 .
-        docker push burakcax/gitops:testv1.0
+        docker image build -t burakcax/gitops-repo:testv1.0 .
+        docker push burakcax/gitops-repo:testv1.0
